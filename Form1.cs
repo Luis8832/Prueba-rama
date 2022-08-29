@@ -21,7 +21,11 @@ namespace WindowsFormsApp1
         {
             MessageBox.Show("Hola");
 
+        }
 
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hola");
         }
     }
 }
