@@ -27,5 +27,10 @@ namespace WindowsFormsApp1
         {
             MessageBox.Show("Hola");
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            MessageBox.Show("Prueba");
+        }
     }
 }
